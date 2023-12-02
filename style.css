@@ -1,0 +1,259 @@
+/*DOCUMENTO CSS DEL PROYECTO*/
+
+*{
+
+    padding: 0px;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+body {
+
+  
+    font-family: 'Times New Roman', Times, serif;
+}
+    
+.logo {
+  
+    float: left;
+    
+ }  
+
+ header {
+   
+    background: rgb(255, 2, 53);
+    width: 100%;
+    clear: both;
+    content:'' ;
+    display: table;
+ }
+
+
+
+ .menu{
+    width: 900px;
+    margin: 0 auto;
+}
+
+
+
+nav ul li {
+    list-style: none;
+    margin-left: 75px;
+    padding: 12px 0;
+    float: left;
+    position: relative;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+
+}
+nav ul li a::before {
+    display: block;
+    content:'';
+    width: 0%;
+    background: chartreuse;
+    height: 5px;
+    top: 0;
+    position: absolute;
+    transition: width 0.2s;
+}
+
+nav ul li a:hover::before {
+    width: 100%;
+}
+
+.compras {
+    width: auto;
+    height: 100%;
+}
+
+
+.container-fluid{
+    background-color: rgb(253, 5, 5);
+}
+
+.boton{
+   
+    color: blue;
+}
+.fondo{
+   
+  height: 60px;
+}
+
+.container {
+     width: 100%;
+     height: auto;
+    justify-content: space;
+    flex-direction: row;
+    margin-right:  25px;
+    margin:-337px 0px 0px 174px ;
+    display: flex;
+
+  text-align: center;
+}
+
+p{
+    margin-right: 100px;
+    color: rgb(255, 252, 252);
+}
+
+.botones {
+    margin:-384px 0px 0px 1250px ;
+    text-align: left;
+    color: blue;
+}
+
+img{
+    margin-right: 100px;
+}
+
+
+.videos {
+   
+    padding: 80px;
+    margin-left: 100px;
+  
+    display: flex;
+    
+}
+
+.sus {
+
+    margin:-241px 0px 41px 639px ;
+    color: blue;
+    display: flex;
+    box-sizing: border-box;
+}
+
+.pesos {
+    margin: -251px 70px 157px 602px;
+     right: 50px;
+    padding: 140px;
+    justify-content: space;
+    padding-left: 160px ;
+   margin-left: 613px ;
+   box-sizing: border-box;
+}
+
+.promocion {
+    margin:-140px -150px 132px -24px ;
+    color: aliceblue;
+    padding: 200px;
+    background-color: black;
+    box-sizing: border-box;
+}
+
+.ofertas {
+    color: rgb(255, 255, 255);
+}
+
+
+.juegosjugados {
+    
+    padding: 200px;
+    margin: -11%;
+    background-color: rgb(218, 8, 8);
+}
+
+.primera {
+    margin:-109px -66px 0px 100px ;
+
+}
+.segunada {
+    margin:86px -65px 0px 100px ;
+
+}
+
+
+.pie {
+
+    margin: -11% ;
+    padding: 150px;
+    background-color: rgb(172, 172, 172);
+}
+
+.descripcion {
+   margin: auto;
+    padding: 20px;
+  
+    text-align: center;
+    margin: -77px -62px 39px 12px  ;
+   display: flex;
+}
+
+.soporte{
+ 
+  column-gap: normal;
+    display: flex;
+}
+
+
+.inteligencia{
+    display: flex;
+}
+
+.eventos{
+    display: flex;
+}
+
+
+.pagos {
+    display: flex;
+}
+
+
+.contenedor{
+    width: 100%;
+    max-width: 4000px;
+}
+
+.main {
+    width: 70%;
+    padding: 20px;
+    float: left;
+    box-sizing: border-box;
+}
+
+@media screen and (max-width:800px) {
+  .main{
+    width: 100%;
+  }
+  
+
+  .sus {
+    width: 100%;
+  }
+}
+.img{
+    width: 100%;
+    height: auto;
+}
+
+@media screen and (max-width:600px) {
+  
+      .contenedo {
+        width: 100%;
+      }
+
+}
+
+@media screen and (max-width:800px) {
+    body {
+        background: #ff8000;
+    }
+}
+
+.suscripcion {
+    margin: 85px -60px 53px 30px ;
+    color: rgb(0, 0, 0);
+}
+
+h4 {
+    margin: -140px -60px 159px -23px ;
+    color: black;
+}
